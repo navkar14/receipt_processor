@@ -1,0 +1,21 @@
+{
+  "name": "receipt_processor",
+  "version": "1.0.0",
+  "description": "This repository contains a Node.js web service that processes receipt data and calculates the awarded points based on predefined rules. The service provides endpoints to process receipts and retrieve the points for a given receipt ID.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
