@@ -4,7 +4,6 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-
 app.use(express.json());
 
 app.use('/receipts', require("./routes/receiptRouter"));
@@ -12,5 +11,8 @@ app.use('/receipts', require("./routes/receiptRouter"));
 app.use(errorHandler);
 
 app.listen(port, () => {
-    console.log(`Server listening on port ${port}`);
+
+    if (process.env.NODE_ENV !== 'production'){
+        console.log(`Server listening on port ${port}`);
+    }
 });
