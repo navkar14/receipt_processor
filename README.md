@@ -30,7 +30,10 @@ To run the web service locally, you need to have either Docker or Node.js instal
 2. Choose the appropriate installation package for your operating system (Windows, macOS, Linux).
 3. Download and run the Docker installer.
 4. Follow the instructions to complete the installation.
-5. Verify the installation by opening a terminal or command prompt and running the command: `<br>` ``docker --version``
+5. Verify the installation by opening a terminal or command prompt and running the command:
+   ```
+   docker --version
+   ```
 
 ### Node.js Installation
 
@@ -38,7 +41,11 @@ To run the web service locally, you need to have either Docker or Node.js instal
 2. Choose the LTS version (Long-Term Support) for stability.
 3. Download and run the Node.js installer.
 4. Follow the instructions to complete the installation.
-5. Verify the installation by opening a terminal or command prompt and running the following commands: `<br>` ``node --version`` `<br>` ``npm --version``
+5. Verify the installation by opening a terminal or command prompt and running the following commands:
+   ```
+   node --version
+   npm --version
+   ``` 
 
 ## Running the Web Service with Docker
 
